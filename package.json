@@ -1,0 +1,23 @@
+{
+  "name": "toy-cli",
+  "version": "1.0.0",
+  "description": "🛠️ A toy command-line interface for learning.",
+  "main": "index.js",
+  "bin": {
+    "toy": "./bin/toy.js"
+  },
+  "scripts": {
+    "create": "toy create aaa -f"
+  },
+  "keywords": [
+    "toy",
+    "cli"
+  ],
+  "author": "bestkwanwa@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "fs-extra": "^10.1.0"
+  }
+}
