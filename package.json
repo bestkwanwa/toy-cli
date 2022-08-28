@@ -1,13 +1,12 @@
 {
-  "name": "toy-cli",
-  "version": "1.0.0",
+  "name": "@toyee/toy-cli",
+  "version": "1.0.1",
   "description": "🛠️ A toy command-line interface for learning.",
-  "main": "index.js",
   "bin": {
-    "toy": "./bin/toy.js"
+    "toy": "bin/toy.js"
   },
   "scripts": {
-    "create": "toy create aaa -f"
+    "create": "toy create my-app -f"
   },
   "keywords": [
     "toy",
@@ -23,5 +22,10 @@
     "fs-extra": "^10.1.0",
     "inquirer": "^8.0.0",
     "ora": "^5.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestkwanwa/toy-cli.git"
+  },
+  "homepage": "https://github.com/bestkwanwa/toy-cli#readme"
 }
