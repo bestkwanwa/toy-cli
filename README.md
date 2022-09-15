@@ -11,3 +11,6 @@ yarn global add @toyee/toy-cli
 ```sh
 toy create my-app
 ```
+
+## TODO
+- generate package.json
