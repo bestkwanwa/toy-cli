@@ -1,6 +1,6 @@
 {
   "name": "@toyee/toy-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🛠️ A toy command-line interface for learning.",
   "bin": {
     "toy": "bin/toy.js"
